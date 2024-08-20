@@ -1,0 +1,115 @@
+body {
+    color: rgb(109, 9, 139);
+    background: rgb(26, 25, 25);
+    margin: 0px;
+    font-family: "Gupter", serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(105, 11, 126);
+    padding: 20px;
+    font-size: 42px;
+    color: rgb(208, 22, 255);
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.chamada {
+    background: rgb(225, 224, 226);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.livros { 
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-liv {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.musicas {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-mus {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid rgb(208, 22, 255);
+}
+
+.categoria h2 {
+    color: rgb(208, 22, 255);
+}
+
+.categoria-liv img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-liv img:hover {
+    opacity: 1.0;
+    border: 2px solid rgb(208, 22, 255);
+}
+
+.livros h3 {
+    color: rgb(208, 22, 255);
+}
+
+.categoria-mus img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-mus img:hover {
+    opacity: 1.0;
+    border: 2px solid rgb(208, 22, 255);
+}
+
+.musicas h4 {
+    color: rgb(208, 22, 255);
+    font-size: 25px;
+}

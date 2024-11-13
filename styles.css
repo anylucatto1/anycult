@@ -95,10 +95,6 @@ p {
     border: 2px solid rgb(208, 22, 255);
 }
 
-.livros h3 {
-    color: rgb(208, 22, 255);
-}
-
 .categoria-mus img {
     opacity: 0.5;
     height: 200px;
@@ -109,7 +105,3 @@ p {
     border: 2px solid rgb(208, 22, 255);
 }
 
-.musicas h4 {
-    color: rgb(208, 22, 255);
-    font-size: 25px;
-}
